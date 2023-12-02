@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+  :root{
+    --Off-Withe: hsl(36, 100%, 99%);
+    --Grayish-Blue: hsl(233, 8%, 79%);
+    --Dark-Grayish-Blue: hsl(236, 13%, 42%);
+    --Very-Dark-Blue: hsl(240, 100%, 5%);
+    --Soft-Orange: hsl(35, 77%, 62%);
+    --Soft-Red: hsl(5, 85%, 63%);
+  }
+}
+
+@layer components{  
+    body {
+        @apply flex justify-center bg-[var(--Off-Withe)]
+    }
+    nav a{
+        @apply font-inter text-base text-dark-grayish-blue hover:text-soft-red transition-colors
+    }
+} 
