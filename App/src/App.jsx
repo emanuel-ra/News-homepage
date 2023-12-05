@@ -4,23 +4,20 @@ import News from "./components/News"
 import Card from "./components/Card"
 import { RetrpPCs, Laptops, Gaming } from "./assets/images"
 
-
-
-
 function App() {
 
   return (
     <>
       <div className="relative max-w-[1440px] min-w-[350px] lg:w-[1440px] flex flex-wrap justify-center p-2 gap-y-6 lg:gap-6">
         <NavBar />
-        <main className="lg:flex-1">
+        <main className="lg:flex-1 animate-fade animate-once animate-delay-100 animate-ease-in-out delay-75">
           <Post />
         </main>
-        <aside className="w-full lg:max-w-[350px]">
+        <aside className="w-full lg:max-w-[350px] animate-fade animate-once animate-delay-100 animate-ease-in-out delay-100">
           <News />
         </aside>
 
-        <article className="w-full flex flex-wrap justify-between gap-4">
+        <article className="w-full flex flex-wrap justify-between gap-4 animate-fade animate-once animate-delay-100 animate-ease-in-out delay-150">
           <Card 
             image={RetrpPCs} 
             order={`01`} 
