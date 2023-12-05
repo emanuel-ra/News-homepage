@@ -42,7 +42,7 @@ const NavMobile = ({close}) => {
     <div
       className={`absolute top-0 left-0 right-0 bottom-0 bg-black/50 h-full w-full lg:hidden flex justify-end`}
     >
-      <div className="relative w-8/12 h-full flex flex-col bg-white">
+      <div className="relative w-8/12 h-full flex flex-col bg-white animate-fade-left animate-once animate-ease-in-out">
         <a href="#" onClick={close} className="w-full flex justify-end pb-20 pt-10 px-4">
           <MenuClose />
         </a>
