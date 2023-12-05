@@ -9,11 +9,11 @@ function Post() {
         <img src={PostDesktop} alt="Web 3" />
       </picture>
 
-      <article className="flex gap-8 py-5">
+      <article className="flex flex-col lg:flex-row gap-8 py-5">
         <div>
             <h1 className={`[text-wrap:balance] font-extrabold text-4xl text-very-dark-blue `}>The Bright Future of Web 3.0?</h1>
         </div>
-        <div className="px-10 flex flex-col gap-2">
+        <div className="lg:px-10 flex flex-col gap-2">
             <p className="[text-wrap:pretty] tracking-normal text-dark-grayish-blue">
             We dive into the next evolution of the web that claims to put the
             power of the platforms back into the hands of the people. But is it

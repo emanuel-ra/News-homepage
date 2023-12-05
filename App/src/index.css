@@ -11,7 +11,7 @@
     --Very-Dark-Blue: hsl(240, 100%, 5%);
     --Soft-Orange: hsl(35, 77%, 62%);
     --Soft-Red: hsl(5, 85%, 63%);
-  }
+  } 
 }
 
 @layer components{  

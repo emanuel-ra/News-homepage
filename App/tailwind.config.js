@@ -12,7 +12,8 @@ export default {
         'very-dark-blue':'var(--Very-Dark-Blue)',
         'dark-grayish-blue':'var(--Dark-Grayish-Blue)' ,
         'soft-red':'var(--Soft-Red)' ,
-        'soft-orange':'var(--Soft-Orange)'
+        'soft-orange':'var(--Soft-Orange)',
+        'grayish-blue':'var(--Grayish-Blue)',
       },
       backgroundColor:{
         'very-dark-blue':'var(--Very-Dark-Blue)' ,
