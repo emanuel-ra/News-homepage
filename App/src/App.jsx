@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className="max-w-[1440px] min-w-[350px] lg:w-[1440px] flex flex-wrap justify-center p-2 gap-y-6 lg:gap-6">
+      <div className="relative max-w-[1440px] min-w-[350px] lg:w-[1440px] flex flex-wrap justify-center p-2 gap-y-6 lg:gap-6">
         <NavBar />
         <main className="lg:flex-1">
           <Post />
