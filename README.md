@@ -24,7 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop
+
 ![](./screenshot/MacbookPro-1701838727258.jpeg.jpg)
+
+#### Mobile
+
 ![](./screenshot/iPhone12Pro-1701838808944.jpeg)
 
 
