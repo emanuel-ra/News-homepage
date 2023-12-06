@@ -26,7 +26,7 @@ Users should be able to:
 
 #### Desktop
 
-![](./screenshot/MacbookPro-1701838727258.jpeg.jpg)
+![](./screenshot/MacbookPro-1701838727258.jpeg)
 
 #### Mobile
 
